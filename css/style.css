@@ -502,7 +502,7 @@
 
 			.feature-list h3
 			{
-				color: #e97770 !important;
+				color: rgba(245, 175, 231, 1) !important;
 			}
 			
 				.feature-list h3:before
@@ -589,14 +589,16 @@
 
 		.wrapper.style1
 		{
-			background: #e97770 url('images/overlay.png');
+			/*background: #e97770 url('images/overlay.png');*/
+			background: rgba(245, 175, 231, 1) url('images/overlay.png');
 			color: #eee;
 			color: rgba(255,255,255,0.75);
 		}
 		
 			.wrapper.style1 .title
 			{
-				background: #e97770 url('images/overlay.png');
+				/*background: #e97770 url('images/overlay.png');*/
+        background: rgba(245, 175, 231, 1) url('images/overlay.png');
 				color: #fff;
 			}
 		
@@ -783,13 +785,12 @@
 		{
 			font-weight: 900;
 			text-transform: uppercase;
-			color: #fff;
+      color: rgba(245, 175, 231, 1);
 		}
 		
 		#logo p
 		{
-			color: #eee;
-			color: rgba(255,255,255,0.5);
+      color: rgba(245, 175, 231, 1);
 			text-transform: uppercase;
 		}
 
