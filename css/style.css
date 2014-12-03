@@ -760,8 +760,7 @@
 		
 			#footer-wrapper .feature-list section
 			{
-				border-top-color: #333;
-				border-top-color: rgba(255,255,255,0.05);
+        border-top: none;
 			}
 
 			#footer-wrapper .feature-list h3
