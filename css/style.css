@@ -832,6 +832,28 @@
 	{
 	}
 
+    #highlights blockquote
+    {
+      border: none;
+    }
+
+    #highlights blockquote div
+    {
+      float: right;
+    }
+
+    #highlights .row, #highlights .row+.row.oneandhalf > *
+    {
+      padding-top: 0px;
+      margin-top: 0px;
+    }
+
+    #highlights .row .4u
+    {
+      padding-top: 0px;
+      margin-top: 0px;
+    }
+
 		#highlights .highlight
 		{
 			text-align: center;
