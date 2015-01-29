@@ -893,6 +893,7 @@
 			}
 
 
+/* fixes for crap CSS */
 .about ul.diva-focus{
   margin-left: 15px;
 }
@@ -926,3 +927,4 @@
 }
 
 #paypal-button:hover { color: #fff; }
+

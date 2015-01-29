@@ -415,3 +415,7 @@
 				{
 					margin-top: 0;
 				}
+
+.feature-list ul {
+  margin: 10px 0 0 52px;
+}
