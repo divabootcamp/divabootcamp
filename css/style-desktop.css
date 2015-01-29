@@ -573,3 +573,7 @@
 					margin-left: 0;
 					padding-left: 0;
 				}
+
+.feature-list ul {
+  margin: 1em 0 0 5.5em;
+}

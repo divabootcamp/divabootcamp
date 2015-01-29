@@ -832,6 +832,28 @@
 	{
 	}
 
+    #highlights blockquote
+    {
+      border: none;
+    }
+
+    #highlights blockquote div
+    {
+      float: right;
+    }
+
+    #highlights .row, #highlights .row+.row.oneandhalf > *
+    {
+      padding-top: 0px;
+      margin-top: 0px;
+    }
+
+    #highlights .row .4u
+    {
+      padding-top: 0px;
+      margin-top: 0px;
+    }
+
 		#highlights .highlight
 		{
 			text-align: center;
@@ -869,3 +891,40 @@
 			{
 				color: #fff;
 			}
+
+
+/* fixes for crap CSS */
+.about ul.diva-focus{
+  margin-left: 15px;
+}
+
+#paypal-form {
+  margin: 0;
+  padding: 0;
+}
+
+#paypal-button {
+  min-width: 0;
+  font: inherit;
+  padding: 0;
+  margin: 0;
+  background: none;
+  color: #eee;
+  color: rgba(255,255,255,0.75);
+  color: rgba(245, 175, 231, 1);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.7em;
+  letter-spacing: 0.25em;
+  height: 5em;
+  line-height: 5em;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  outline: 0;
+}
+
+#paypal-button:hover { color: #fff; }
+
