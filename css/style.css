@@ -16,7 +16,7 @@
 	{
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 400;
-		color: #919499;
+		color: #666/*#919499*/;
 	}
 
 		body.is-loading *
@@ -502,7 +502,7 @@
 
 			.feature-list h3
 			{
-				color: rgba(245, 175, 231, 1) !important;
+				color: rgba(227, 16, 112, 1) /*#F5AFE7*/ /*rgba(245, 175, 231, 1)*/ !important;
 			}
 			
 				.feature-list h3:before
@@ -590,7 +590,7 @@
 		.wrapper.style1
 		{
 			/*background: #e97770 url('images/overlay.png');*/
-			background: rgba(245, 175, 231, 1) url('images/overlay.png');
+			background: rgba(227, 16, 112, 1) /*#F5AFE7*/ /*rgba(245, 175, 231, 1)*/ url('images/overlay.png');
 			color: #eee;
 			color: rgba(255,255,255,0.75);
 		}
@@ -598,7 +598,7 @@
 			.wrapper.style1 .title
 			{
 				/*background: #e97770 url('images/overlay.png');*/
-        background: rgba(245, 175, 231, 1) url('images/overlay.png');
+        background: rgba(227, 16, 112, 1) /*#F5AFE7*/ /*rgba(245, 175, 231, 1)*/ url('images/overlay.png');
 				color: #fff;
 			}
 		
@@ -644,8 +644,8 @@
 
 	#header-wrapper
 	{
-		background: url('../images/banner.png') center center;
-		background-size: cover;
+	    background: url('../images/banner.jpg') center center;
+			background-size: cover;
 	}
 	
 		#header-wrapper:before
@@ -784,12 +784,12 @@
 		{
 			font-weight: 900;
 			text-transform: uppercase;
-      color: rgba(245, 175, 231, 1);
+      color: rgba(227, 16, 112, 1) /*#F5AFE7*/ rgba(227, 16, 112, 1) /*#F5AFE7*/ /*rgba(245, 175, 231, 1)*/;
 		}
 		
 		#logo p
 		{
-      color: rgba(245, 175, 231, 1);
+      color: white;
 			text-transform: uppercase;
       font-weight: bold;
 		}
@@ -911,7 +911,7 @@
   background: none;
   color: #eee;
   color: rgba(255,255,255,0.75);
-  color: rgba(245, 175, 231, 1);
+  color: rgba(227, 16, 112, 1) /*#F5AFE7*/ /*rgba(245, 175, 231, 1)*/;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 0.7em;
@@ -928,3 +928,16 @@
 
 #paypal-button:hover { color: #fff; }
 
+#footer-wrapper #social-sharing li a {
+  float: left;
+}
+
+#footer-wrapper #social-sharing li a i {
+  padding-right: 10px;
+  float: left;
+  width: 30px;
+}
+
+#footer-wrapper #social-sharing ul {
+  margin: 0 0 0 4em;
+}

@@ -173,7 +173,7 @@
 			{
 				margin: 0 0 0 5em;
 			}
-			
+
 			.feature-list.small
 			{
 			}
@@ -323,7 +323,7 @@
 			margin: 1.25em 0 0 0;
 			display: block;
 			letter-spacing: 0.2em;
-			font-size: 0.9em;
+			font-size: 2em;
 		}
 
 /*********************************************************************************/
@@ -349,7 +349,7 @@
 		{
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(245, 175, 231, 0.50);
+			box-shadow: inset 0px 0px 1px 1px #fff/* #000 rgba(245, 175, 231, 0.50)*/;
 			padding: 0 1.5em 0 1.5em;
 		}
 
@@ -366,7 +366,7 @@
 				display: block;
 				color: #eee;
 				color: rgba(255,255,255,0.75);
-				color: rgba(245, 175, 231, 1);
+				color: #fff /* #000 rgba(227, 16, 112, 1)  #F5AFE7 rgba(245, 175, 231, 1)*/;
 				text-transform: uppercase;
 				text-decoration: none;
 				font-size: 0.7em;
@@ -574,6 +574,6 @@
 					padding-left: 0;
 				}
 
-.feature-list ul {
+#features .feature-list ul {
   margin: 1em 0 0 5.5em;
 }
