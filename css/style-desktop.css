@@ -298,13 +298,13 @@
 
 	#logo
 	{
-		position: absolute;
-		height: 5em;
-		top: 50%;
-		left: 0;
-		width: 100%;
-		text-align: center;
-		margin-top: -0.5em;
+		/*position: absolute;*/
+		/*height: 5em;*/
+		/*top: 50%;*/
+		/*left: 0;*/
+		/*width: 100%;*/
+    text-align: center;
+		/*margin-top: -0.5em;*/
 	}
 
 		.homepage #logo
