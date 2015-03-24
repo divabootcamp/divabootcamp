@@ -941,3 +941,8 @@
 #footer-wrapper #social-sharing ul {
   margin: 0 0 0 4em;
 }
+
+#logo img {
+  width: 144px;
+  height: 216px;
+}
